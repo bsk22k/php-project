@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centrul de meditatii</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f7f3;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #7e4d32;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        .icon-container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .icon {
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .icon img {
+            width: 150px;
+            height: 150px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .icon img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .icon a {
+            text-decoration: none;
+            color: #5d4037;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+        }
+
+        .icon a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Centrul de meditatii</h1>
+    <div class="icon-container">
+        <div class="icon">
+            <a href="/auth/login_admin.php">
+                <img src="/pictures/admin.png" alt="Iconiță 1">
+                
+            </a>
+            <div class="description2">
+                LOGARE ADMIN
+            </div>
+        </div>
+        <div class="icon">
+            <a href="/auth/login_user.php">
+                <img src="/pictures/user.jpg" alt="Iconiță 2">
+                
+            </a>
+            <div class="description1">
+                LOGARE USER
+            </div>
+        </div>
+    </div>
+</body>
+</html>

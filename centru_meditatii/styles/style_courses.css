@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f7f3;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #7e4d32;
+}
+
+form {
+    width: 50%;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0d1b1;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #5d4037;
+}
+
+input[type="time"], select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    background-color: #7e4d32;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5d4037;
+}
+
+/* Stilizare pentru lista checkbox */
+.student-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.student-item {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    user-select: none;
+}
+
+.student-item input {
+    margin-right: 10px;
+}
+
+.student-item:hover {
+    background-color: #f0f0f0;
+}
+
+.student-item input:checked + span {
+    font-weight: bold;
+    color: #7e4d32;
+}

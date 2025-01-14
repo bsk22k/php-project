@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'fira_sansmedium';
+    src: url('../font1/firasans-medium-webfont.woff2') format('woff2'),
+         url('../font1/firasans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  @font-face {
+    font-family: 'alex_brushregular';
+    src: url('../font2/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../font2/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+
+body {
+    font-family: 'fira_sansmedium',Arial, sans-serif;
+    background-color: #f9f7f3;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #7e4d32;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #7e4d32;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #5d4037;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #e0d1b1;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #5d4037;
+}
+
+td {
+    background-color: #fff;
+}
+
+td a {
+    background-color: #5d4037;
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+td a:hover {
+    background-color: #5d4037;
+}
+
+.no-data {
+    text-align: center;
+    font-style: italic;
+    color: #999;
+}
